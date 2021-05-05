@@ -1,0 +1,20 @@
+#From Staging table to file/indivdual table
+
+Select Name,Cust_I,Open_Dt,Consul_Dt,VAC_ID,DR_Name,State,Country,DOB,FLAG from Customer
+where Country='IND'
+
+Select Name,Cust_I,Open_Dt,Consul_Dt,VAC_ID,DR_Name,State,Country,DOB,FLAG from Customer
+where Country='USA'
+
+Select Name,Cust_I,Open_Dt,Consul_Dt,VAC_ID,DR_Name,State,Country,DOB,FLAG from Customer
+where Country='AU'
+
+
+#From indivdual tables to files
+
+Select Name,Cust_I,Open_Dt,Consul_Dt,VAC_ID,DR_Name,State,Country,DOB,FLAG from Table_India
+
+Select Name,Cust_I,Open_Dt,Consul_Dt,VAC_ID,DR_Name,State,Country,DOB,FLAG from Table_America
+
+Select Name,Cust_I,Open_Dt,Consul_Dt,VAC_ID,DR_Name,State,Country,DOB,FLAG from Table_Australia
+
